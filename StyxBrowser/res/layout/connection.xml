@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10px">
+	<TextView android:id="@+id/TextViewAddress" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Address" android:textSize="10pt" />
+	<EditText android:id="@+id/EditTextAddress" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/connection" />
+	<TextView android:id="@+id/TextViewDirectory" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Directory" android:textSize="10pt" />
+	<EditText android:id="@+id/EditTextDirectory" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/directory" />
+	<TextView android:id="@+id/TextViewLogin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Login" android:textSize="10pt" />
+	<EditText android:id="@+id/EditTextLogin" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+	<TextView android:id="@+id/TextViewPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" android:textSize="10pt" />
+	<EditText android:id="@+id/EditTextPassword" android:layout_height="wrap_content"  android:layout_width="fill_parent" />
+	<Button android:id="@+id/ButtonConnection" android:layout_height="wrap_content" android:text="Connection" android:layout_width="fill_parent" android:layout_margin="20px"/>
+</LinearLayout>

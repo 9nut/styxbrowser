@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/create" android:icon="@android:drawable/ic_menu_add" android:title="Create">
+		<menu>
+			<item android:title="File" android:id="@+id/create_file"/>
+			<item android:title="Directory" android:id="@+id/create_directory"/>
+		</menu>
+	</item>
+</menu>

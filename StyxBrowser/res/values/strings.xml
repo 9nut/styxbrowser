@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StyxBrowser</string>
+    <string name="connection">tcp!204.178.31.11!564</string>
+<!--
+	<string name="connection">tcp!192.168.0.10!564</string>
+-->
+	<string name="directory">/</string>
+</resources>
